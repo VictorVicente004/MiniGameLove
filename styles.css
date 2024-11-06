@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: plum;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -34,4 +35,13 @@ body {
     color: white;
     background-color:red;
     border-color: red;
+}
+
+h1 {
+    color: #ffffff;
+    position: absolute;
+    top: 50px; /* Ajuste a distância do topo conforme desejado */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem; /* Ajuste o tamanho conforme necessário */
 }
